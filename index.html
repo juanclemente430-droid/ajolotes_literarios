@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Revista FOSFORO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Pantalla de carga -->
+    <div id="loading-screen">
+        <div class="animated-text">
+            <span class="letter">S</span>
+            <span class="letter">A</span>
+            <span class="letter">L</span>
+            <span class="letter">A</span>
+            <span class="letter space">&nbsp;</span>
+            <span class="letter">D</span>
+            <span class="letter">E</span>
+            <span class="letter space">&nbsp;</span>
+            <span class="letter">L</span>
+            <span class="letter">E</span>
+            <span class="letter">C</span>
+            <span class="letter">T</span>
+            <span class="letter">U</span>
+            <span class="letter">R</span>
+            <span class="letter">A</span>
+            <span class="letter space">&nbsp;</span>
+            <span class="letter">A</span>
+            <span class="letter">J</span>
+            <span class="letter">O</span>
+            <span class="letter">L</span>
+            <span class="letter">O</span>
+            <span class="letter">T</span>
+            <span class="letter">E</span>
+            <span class="letter">S</span>
+            <span class="letter space">&nbsp;</span>
+            <span class="letter">L</span>
+            <span class="letter">I</span>
+            <span class="letter">T</span>
+            <span class="letter">E</span>
+            <span class="letter">R</span>
+            <span class="letter">A</span>
+            <span class="letter">R</span>
+            <span class="letter">I</span>
+            <span class="letter">O</span>
+            <span class="letter">S</span>
+        </div>
+    </div>
+    <header>  
+        <div class="container">
+            <figure class="nav_figure">
+            <a href="index.html" class="logo">
+                <img src="imagenes/logo.png" alt="Revista FOSFORO" class="logo-img">
+            </a>
+            </figure>
+
+            <label class="nav_toggel">
+                <input type="checkbox" id="menu-input" class="nav_input">
+            </label>
+        </div>
+        <ul class="nav_list">
+            <li class="nav_item">
+                <a href="index.html" class="nav_link2">Inicio</a>
+            </li>
+            <li class="nav_item">
+                <a href="Catalogo.html" class="nav_link2">Acerca de la sala de lectura</a>
+            </li>
+            <li class="nav_item">
+                <a href="Catalogo.html" class="nav_link2">Eventos proximos</a>
+            </li>
+            <li class="nav_item">
+                <a href="Catalogo.html" class="nav_link2">Catalogo de lecturas</a>
+            </li>
+            <li class="nav_item redes-sociales-menu">
+                <a target="_blank" class="social-link">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a target="_blank" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a target="_blank" class="social-link">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <div class="main-wrapper">
+
+        <div class="slider-container">
+            <div  class="slider-wrapper" id="sliderWrapper">
+                <div class="slide slide-2">
+                    <div class="slide-content">
+                        <a href="Convocatorias.html"><img class="Imagenes-Carrusel" src="imagenes/image236.png" alt="Primera Convocatoria de la Revista Fosforo"></a>
+                    </div>
+                </div>   
+                <div class="slide slide-1">
+                    <div class="slide-content">
+                        <p> <span class="dossier"> ¡Lectura escritas por miembros!</span><br><span class="textohero">YA ESTAN AQUI LAS
+                            lecturas escritas por miembros</span></p>
+                        <button><a href="catalago.html">Ver más</a></button>
+                    </div>
+                </div>               
+             </div>
+
+            <button class="arrow2 arrow22-left" id="prevBtn">‹</button>
+            <button class="arrow2 arrow23-right" id="nextBtn">›</button>
+
+            <!-- Indicadores -->
+            <div class="dots-container" id="dotsContainer"></div>
+        </div>
+
+
+        <section id="apartados">
+            <div class="container">
+                <div class="carta1">
+                    <div class="container">
+                        <img class="image-container" src="imagenes/image236.png">
+                            <div class="info-texto">
+                                <h2>Información</h2>
+                                <p><b>Horario:</b>
+                                    <br>14:00-16:00 hrs
+                                    <br><br><b>Lugar:</b>
+                                    <br>Tercer piso, edificio BB, UAM Xochimilco
+                                </p>
+                                <iframe class="mapa-info" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.49745911157!2d-99.10559032593477!3d19.304208381947994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce01860237f63d%3A0x409a85db2e1a657b!2sUniversidad%20Aut%C3%B3noma%20Metropolitana%20Unidad%20Xochimilco!5e0!3m2!1ses!2smx!4v1773548143206!5m2!1ses!2smx"
+                                    style="border:0; width:50%; height:150px; margin: 10px 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                </iframe> <br> <br>
+                                <p><b>Contacto</b>
+                                    <br>Aqui iria el correo o el numero telefonico
+                                </p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contacto">
+            <div class="carta">
+                <div class="container">
+                    <h2>Sitios de interés</h2>
+                </div>
+            </div>
+            <div class="carta">
+                <div class="container-redes-sociales">
+                </div>
+            </div>
+            <div class="carta">
+                <p>&copy;Ajolotes literarios</p>
+            </div>
+        </section>
+    </div>
+    <script>
+        // Esperar a que termine la animación de las letras y luego mostrar el contenido
+        setTimeout(() => {
+            const loadingScreen = document.getElementById('loading-screen');
+            const mainContent = document.getElementById('main-content');
+            
+            // Ocultar pantalla de carga
+            loadingScreen.classList.add('fade-out');
+            
+            // Mostrar contenido principal
+            setTimeout(() => {
+                mainContent.classList.add('show');
+            }, 300);
+        }, 4200);
+
+        // Menú desplegable
+        document.addEventListener('DOMContentLoaded', function() {
+            const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+            
+            dropdownToggles.forEach(toggle => {
+                toggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const menuItem = this.parentElement;
+                    const dropdown = menuItem.querySelector('.dropdown');
+                    
+                    // Toggle del dropdown
+                    menuItem.classList.toggle('active');
+                    dropdown.classList.toggle('active');
+                });
+            });
+
+            // Cerrar dropdown al hacer clic fuera
+            document.addEventListener('click', function(e) {
+                if (!e.target.closest('.nav_item.has-dropdown')) {
+                    document.querySelectorAll('.nav_item.has-dropdown.active').forEach(item => {
+                        item.classList.remove('active');
+                        item.querySelector('.dropdown').classList.remove('active');
+                    });
+                }
+            });
+        });
+        const sliderWrapper = document.getElementById('sliderWrapper');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const dotsContainer = document.getElementById('dotsContainer');
+        
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+        let currentSlide = 0;
+        let autoSlideInterval;
+
+        // Crear indicadores (dots)
+        function createDots() {
+            for (let i = 0; i < totalSlides; i++) {
+                const dot = document.createElement('div');
+                dot.classList.add('dot');
+                if (i === 0) dot.classList.add('active');
+                dot.addEventListener('click', () => goToSlide(i));
+                dotsContainer.appendChild(dot);
+            }
+        }
+
+        // Actualizar indicadores
+        function updateDots() {
+            const dots = document.querySelectorAll('.dot');
+            dots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentSlide);
+            });
+        }
+
+        // Ir a un slide específico
+        function goToSlide(index) {
+            currentSlide = index;
+            const offset = -currentSlide * 100;
+            sliderWrapper.style.transform = `translateX(${offset}%)`;
+            updateDots();
+            resetAutoSlide();
+        }
+
+        // Siguiente slide
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % totalSlides;
+            goToSlide(currentSlide);
+        }
+
+        // Slide anterior
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+            goToSlide(currentSlide);
+        }
+
+        // Auto-slide (cambio automático)
+        function startAutoSlide() {
+            autoSlideInterval = setInterval(nextSlide, 5000); // Cambia cada 5 segundos
+        }
+
+        function resetAutoSlide() {
+            clearInterval(autoSlideInterval);
+            startAutoSlide();
+        }
+
+        // Event listeners
+        nextBtn.addEventListener('click', nextSlide);
+        prevBtn.addEventListener('click', prevSlide);
+
+        // Pausar auto-slide al pasar el mouse
+        sliderWrapper.addEventListener('mouseenter', () => {
+            clearInterval(autoSlideInterval);
+        });
+
+        sliderWrapper.addEventListener('mouseleave', () => {
+            startAutoSlide();
+        });
+
+        // Soporte para touch (móviles)
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        sliderWrapper.addEventListener('touchstart', (e) => {
+            touchStartX = e.changedTouches[0].screenX;
+        });
+
+        sliderWrapper.addEventListener('touchend', (e) => {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+        });
+
+        function handleSwipe() {
+            if (touchStartX - touchEndX > 50) {
+                nextSlide();
+            } else if (touchEndX - touchStartX > 50) {
+                prevSlide();
+            }
+        }
+
+        // Inicializar
+        createDots();
+        startAutoSlide();
+    </script>
+</body>
+</html>
